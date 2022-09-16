@@ -1,0 +1,16 @@
+console.log(2 + 2 === 4);
+console.log(2 + 2 === '4');
+console.log(2 + 2 == '4');
+console.log(Number('4') === true);
+console.log(Number('0') === false);
+console.log(NaN == true);
+console.log(NaN === NaN);
+console.log(NaN !== NaN);
+console.log(Infinity === Infinity);
+console.log(1/0 == 2/0);
+console.log((2 * null) == true);
+console.log((2 + null) == true);
+console.log(7 == true);
+console.log(null || 7 == true);
+console.log('4' == true);
+console.log('' == true);
